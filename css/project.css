@@ -1,0 +1,35 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.project h1 {
+  padding-top: 32px;
+}
+.project .showcase {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 32px;
+  gap: 50px;
+}
+.project .showcase div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.project .showcase div img {
+  height: 100px;
+  text-align: center;
+}
+.project .showcase div h3 {
+  text-align: center;
+}
+.project .showcase div p {
+  text-align: center;
+}
+
+/*# sourceMappingURL=project.css.map */

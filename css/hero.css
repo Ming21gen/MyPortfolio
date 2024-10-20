@@ -1,0 +1,58 @@
+.hero {
+  background-image: linear-gradient(#189AB4, #D4F1F4);
+  height: 100vh;
+  overflow-y: hidden;
+}
+.hero header {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 32px;
+}
+.hero header div {
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+.hero header nav {
+  display: flex;
+  gap: 10px;
+}
+.hero header nav a {
+  text-decoration: none;
+  color: white;
+}
+.hero header nav a:hover {
+  color: #d0e7eb;
+}
+.hero main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-100px);
+  height: 100%;
+  padding: 0 32px;
+}
+.hero main h1 {
+  padding-bottom: 32px;
+  text-align: center;
+}
+.hero main p {
+  text-align: center;
+}
+.hero main a {
+  text-decoration: none;
+  padding: 10px 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #189AB4;
+  color: white;
+}
+.hero main a:hover {
+  background-color: #147a8e;
+}
+
+/*# sourceMappingURL=hero.css.map */

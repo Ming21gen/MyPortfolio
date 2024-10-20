@@ -1,0 +1,37 @@
+.what-i-do {
+  display: flex;
+  flex-direction: column;
+  background-color: #D4F1F4;
+  gap: 32px;
+  padding: 0px 32px;
+  padding-bottom: 32px;
+  justify-content: center;
+  align-items: center;
+}
+.what-i-do h1 {
+  text-align: center;
+  padding-top: 32px;
+}
+.what-i-do div {
+  display: flex;
+  gap: 10px;
+}
+.what-i-do div .skill {
+  display: flex;
+  flex-direction: column;
+  background-color: #189AB4;
+  max-width: 250px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: start;
+}
+.what-i-do div .skill p {
+  text-align: center;
+}
+.what-i-do div .skill h2 {
+  text-align: center;
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=what-i-do.css.map */
