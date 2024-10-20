@@ -23,6 +23,19 @@
         body{
             font-family: sans-serif;
         }
+        .sendmsg{
+            color: white;
+            width: fit-content;
+            padding: 10px 10px;
+            background-color: #189AB4;
+            border: none;
+            border-radius: 5px;
+            max-width:fit-content;
+            align-self: flex-start;
+        }
+        .sendmsg:hover{
+            background-color: #187386;
+        }
     </style>
 </head>
 <body>
@@ -39,7 +52,7 @@
         <main>
             <h1>Hello, I'm Chhoem Eming</h1>
             <p>Creative Web developer and Designer</p>
-            <a href="#project" styles="text-align: center;">View My Work</a>
+            <a href="#project">View My Work</a>
         </main>
     </div>
     <div class="about" id="about">
@@ -86,10 +99,10 @@
             <input type="text" placeholder="Your Name" name="name">
             <input type="email" placeholder="Your Email" name="email">
             <textarea name="message" id="" rows="8" placeholder="Your Message"></textarea>
-            <input style="color: white;width: fit-content; padding: 10px 10px; background-color: #189AB4; border: none; border-radius: 5px; align-self: first baseline;" type="submit" value="Send Message">   
+            <input class="sendmsg" type="submit" value="Send Message">   
         </form>
     </div>
-    <footer style="text-align: center; background-color: #189AB4; padding: 10px 10px;color: white;">
+    <footer style="text-align: center; background-color: #189AB4; padding: 10px 10px;color: whitee;">
         &copy; 2024 CHHOEM EMING All Right Reserved.
     </footer>
 </body>
